@@ -1,0 +1,106 @@
+<svg width="1440" height="2200" viewBox="0 0 1440 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hero" x1="160" y1="120" x2="1280" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="2200" fill="#F7F8FC"/>
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="20" fill="#94A3B8">Учебный макет для вёрстки · simple</text>
+
+  <!-- Frame -->
+  <rect x="80" y="80" width="1280" height="2040" rx="28" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <rect x="80" y="80" width="1280" height="88" rx="28" fill="#FFFFFF"/>
+  <text x="156" y="134" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Nexio</text>
+  <circle cx="126" cy="126" r="18" fill="#4F46E5"/>
+  <text x="725" y="132" font-family="Arial, sans-serif" font-size="18" fill="#475569">Главная</text>
+  <text x="830" y="132" font-family="Arial, sans-serif" font-size="18" fill="#475569">О нас</text>
+  <text x="915" y="132" font-family="Arial, sans-serif" font-size="18" fill="#475569">Услуги</text>
+  <text x="1015" y="132" font-family="Arial, sans-serif" font-size="18" fill="#475569">Контакты</text>
+  <rect x="1120" y="102" width="160" height="48" rx="14" fill="#111827"/>
+  <text x="1160" y="132" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Оставить заявку</text>
+
+  <!-- Hero -->
+  <rect x="120" y="200" width="1200" height="520" rx="32" fill="url(#hero)"/>
+  <text x="180" y="300" font-family="Arial, sans-serif" font-size="18" fill="#4F46E5">Современный лендинг</text>
+  <text x="180" y="378" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#111827">Простой макет</text>
+  <text x="180" y="446" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#111827">для практики HTML/CSS</text>
+  <text x="180" y="500" font-family="Arial, sans-serif" font-size="22" fill="#475569">Минимум сложных блоков: шапка, hero, карточки, CTA и footer.</text>
+  <text x="180" y="534" font-family="Arial, sans-serif" font-size="22" fill="#475569">Удобно тренировать container, flex, grid, padding и кнопки.</text>
+
+  <rect x="180" y="580" width="200" height="56" rx="16" fill="#4F46E5"/>
+  <text x="237" y="615" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Начать</text>
+  <rect x="400" y="580" width="180" height="56" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="447" y="615" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Подробнее</text>
+
+  <!-- Hero illustration -->
+  <rect x="860" y="270" width="350" height="360" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="900" y="315" width="270" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="900" y="355" width="210" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="900" y="420" width="230" height="120" rx="20" fill="#EEF2FF"/>
+  <rect x="920" y="445" width="120" height="18" rx="9" fill="#4F46E5" fill-opacity="0.20"/>
+  <rect x="920" y="478" width="170" height="14" rx="7" fill="#C7D2FE"/>
+  <rect x="1070" y="445" width="70" height="70" rx="18" fill="#4F46E5"/>
+  <circle cx="1178" cy="338" r="12" fill="#22C55E"/>
+  <circle cx="1215" cy="592" r="32" fill="#DBEAFE"/>
+  <circle cx="845" cy="250" r="16" fill="#C7D2FE"/>
+
+  <!-- Section title -->
+  <text x="120" y="830" font-family="Arial, sans-serif" font-size="20" fill="#4F46E5">Почему этот макет удобный</text>
+  <text x="120" y="890" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#111827">Небольшой набор типовых блоков</text>
+
+  <!-- Cards -->
+  <rect x="120" y="940" width="380" height="220" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="176" cy="996" r="24" fill="#EEF2FF"/>
+  <rect x="164" y="984" width="24" height="24" rx="8" fill="#4F46E5"/>
+  <text x="120" y="1070" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Простая структура</text>
+  <text x="120" y="1115" font-family="Arial, sans-serif" font-size="20" fill="#475569">Шапка, главный экран, карточки и футер.</text>
+  <text x="120" y="1148" font-family="Arial, sans-serif" font-size="20" fill="#475569">Без сложных декоративных элементов.</text>
+
+  <rect x="530" y="940" width="380" height="220" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="586" cy="996" r="24" fill="#ECFDF5"/>
+  <rect x="574" y="984" width="24" height="24" rx="8" fill="#22C55E"/>
+  <text x="530" y="1070" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Лёгкая вёрстка</text>
+  <text x="530" y="1115" font-family="Arial, sans-serif" font-size="20" fill="#475569">Можно собрать на flex и grid,</text>
+  <text x="530" y="1148" font-family="Arial, sans-serif" font-size="20" fill="#475569">не запутавшись в слоях.</text>
+
+  <rect x="940" y="940" width="380" height="220" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="996" cy="996" r="24" fill="#FEF3C7"/>
+  <rect x="984" y="984" width="24" height="24" rx="8" fill="#F59E0B"/>
+  <text x="940" y="1070" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Хорошо учиться</text>
+  <text x="940" y="1115" font-family="Arial, sans-serif" font-size="20" fill="#475569">Тренируешь отступы, кнопки,</text>
+  <text x="940" y="1148" font-family="Arial, sans-serif" font-size="20" fill="#475569">типографику и адаптив.</text>
+
+  <!-- About split block -->
+  <rect x="120" y="1240" width="560" height="340" rx="32" fill="#F8FAFC"/>
+  <text x="170" y="1330" font-family="Arial, sans-serif" font-size="18" fill="#4F46E5">О блоке</text>
+  <text x="170" y="1390" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#111827">Ещё один простой</text>
+  <text x="170" y="1442" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#111827">двухколоночный раздел</text>
+  <text x="170" y="1510" font-family="Arial, sans-serif" font-size="21" fill="#475569">Слева — заголовок и текст.</text>
+  <text x="170" y="1543" font-family="Arial, sans-serif" font-size="21" fill="#475569">Справа — карточка-иллюстрация.</text>
+
+  <rect x="720" y="1240" width="600" height="340" rx="32" fill="#111827"/>
+  <rect x="780" y="1310" width="480" height="200" rx="24" fill="#FFFFFF"/>
+  <rect x="820" y="1360" width="180" height="16" rx="8" fill="#CBD5E1"/>
+  <rect x="820" y="1395" width="320" height="16" rx="8" fill="#CBD5E1"/>
+  <rect x="820" y="1450" width="160" height="28" rx="14" fill="#4F46E5"/>
+  <rect x="1080" y="1360" width="120" height="120" rx="24" fill="#EEF2FF"/>
+
+  <!-- CTA -->
+  <rect x="120" y="1660" width="1200" height="240" rx="32" fill="#4F46E5"/>
+  <text x="180" y="1760" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Хочешь ещё проще?</text>
+  <text x="180" y="1812" font-family="Arial, sans-serif" font-size="22" fill="#E0E7FF">Этот вариант уже максимально удобен для первой практики.</text>
+  <rect x="1000" y="1730" width="220" height="58" rx="16" fill="#FFFFFF"/>
+  <text x="1057" y="1767" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Скачать макет</text>
+
+  <!-- Footer -->
+  <rect x="120" y="1960" width="1200" height="100" rx="24" fill="#F8FAFC"/>
+  <text x="170" y="2020" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Nexio</text>
+  <text x="1030" y="2020" font-family="Arial, sans-serif" font-size="18" fill="#64748B">© 2026 Учебный макет</text>
+</svg>
